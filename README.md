@@ -4,6 +4,7 @@ To access Zoom APIs
 [Zoom Api](https://marketplace.zoom.us/) Go to the page and create an account, and then go to Build Server-to-Server App.
 In order to use the API, you need to grant permissions and authorizations.
 <img src="./img/zoomlogin.png">
+<img src="./img/zoom2.png">
 
 Get the Client ID and Client Secret information in the App Credentials section and add it to the .env file in the project directory.
 Fill it in by following the steps on the left and then access the APIs.
