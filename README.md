@@ -4,6 +4,7 @@ To access Zoom APIs
 [Zoom Api](https://marketplace.zoom.us/) Go to the page and create an account, and then go to Build Server-to-Server App.
 In order to use the API, you need to grant permissions and authorizations.
 <img src="./img/zoomlogin.png">
+
 <img src="./img/zoom2.png">
 
 Get the Client ID and Client Secret information in the App Credentials section and add it to the .env file in the project directory.
@@ -31,7 +32,6 @@ On the Hasura Console screen
 We need to specify the endpoint in the actions -> section.
 ``
 <img src="./img/img.png">
-<img src="./img/has.png">
 <img src="./img/token.png">
 <img src="./img/users.png">
  
