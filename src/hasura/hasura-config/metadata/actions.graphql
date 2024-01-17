@@ -1,0 +1,26 @@
+type Query {
+  getToken: SampleOutput
+}
+
+type Query {
+  getUsers: [User]
+}
+
+input SampleInput {
+  password: String
+  username: String
+}
+
+type SampleOutput {
+  access_token: String
+}
+
+type User {
+  id: Int
+  first_name: String
+  last_name: String
+  display_name: String
+  email: String
+  type: Int
+}
+

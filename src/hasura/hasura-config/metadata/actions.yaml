@@ -1,0 +1,17 @@
+actions:
+  - name: getToken
+    definition:
+      kind: ""
+      handler: '{{ACTION_BASE_ENDPOINT}}/zoom/getToken'
+  - name: getUsers
+    definition:
+      kind: ""
+      handler: '{{ACTION_BASE_ENDPOINT}}/zoom/users'
+custom_types:
+  enums: []
+  input_objects:
+    - name: SampleInput
+  objects:
+    - name: SampleOutput
+    - name: User
+  scalars: []
